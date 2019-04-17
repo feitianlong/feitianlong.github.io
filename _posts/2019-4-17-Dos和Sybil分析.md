@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      Dos和Sybil分析
+subtitle:   几篇Mixer论文中的Dos和Sybil
+date:       2019-04-17
+author:     FTL
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - Paper
+---
+
 ###  Sybil 和 Dos 抵抗
 
 ____
