@@ -1,0 +1,20 @@
+#### Xim:Sybil-Resistant Mixing for Bitcoin
+
+##### Discover Protocol（匿名的寻找伙伴交换地址）
+
+Step1-5. 参与者进行角色（advertiser和respondent）的选择.    
+Step6. advertiser发布（用区块记录）ad（Na标识）,并列出location.   
+
+Step7. respondent根据location发送加密消息（Nr标识）给advertiser.  
+
+Step8. advertiser随机选择一个respondent，并对其加密消息commit，并将该消息发到location.   
+
+Step9. respondent在收到该消息之后会用advertiser的公钥加密，并将该消息作为ad发布，这一步是保证该笔ad的花费是为当前advertiser所发布的ad所使用。（每笔ad都需要支付费用）  
+
+Step10-13. 如果Respondent的消息（Step9）没有在t1时间出现在链上，那么advertiser就与该对象解除关系.退回Step  
+
+Step14.(双方都诚实) Advertiser然后发布ad，告知此前的ad已经与标识为H(Nr)的respondent配对.  
+
+Step15-18. 如果Advertiser的消息（Step14）没有在t2时间内出现在链上，那么与该Advertiser解除关系，退回Step7.  
+
+____

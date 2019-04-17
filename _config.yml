@@ -1,10 +1,10 @@
 # Site settings
-title: feitianlong 
+title:  Tianlong Fei 
 SEOTitle: Staizita的博客 | Staizita Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: feitianlong920@gmail.com
 description: "Every failure is leading towards success."
-keyword: "Algorithm"
+keyword: "Algorithm, Paper ,Books , Movies"
 url: "http://feitianlong.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/feitianlong/feitianlong.github.io.git" # you code repository
@@ -19,10 +19,11 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+# zhihu_username:     qiubaiying
+github_username:    feitianlong
+leetcode_username:    staizita
+# facebook_username:  baiying.qiu.7
+# jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
 
@@ -64,9 +65,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: feitianlong.github.io    #仓库名称
+  owner: feitianlong    #github用户名
+  admin: feitianlong
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +75,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,11 +100,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Leetcode",
+        href: "https://leetcode.com/staizita/"
     },{
         title: "Apple",
         href: "https://apple.com"
